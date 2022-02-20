@@ -1,2 +1,2 @@
 # barbearia_alura
-Website
+Status: Em andamento
