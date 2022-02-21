@@ -1,5 +1,16 @@
 header {
   background-color: #bbbbbb;
+  padding: 0 20px;
+}
+.caixa{
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+nav{
+  position: absolute;
+  top: 110px;
+  right: 0;
 }
 nav li {
   display: inline;
