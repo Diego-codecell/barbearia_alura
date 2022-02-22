@@ -1,4 +1,4 @@
-/* Estilo do header */
+/* Estilo do cabeçalho */
 header {
   background-color: #bbbbbb;
   padding: 0 20px;
@@ -38,7 +38,8 @@ nav a {
   margin: 0 1.5%;
   padding: 30px 20px;
   box-sizing: border-box;
-  border: 1px solid #000000;
+  border: 2px solid #000000;
+  border-radius: 20px;
 }
 .produtos h2 {
   font-size: 30px;
