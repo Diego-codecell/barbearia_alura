@@ -23,7 +23,8 @@ nav li {
 }
 nav a {
   text-transform: uppercase;
-  color: #000000;
+  color: #a45c40;
+  background: #FFFFFF;
   font-weight: bold;
   font-size: 22px;
   text-decoration: none;
@@ -32,10 +33,10 @@ nav a {
   padding: 8px 12px;
 }
 nav a:hover {
-  color: #a45c40;
-  border-color: #a45c40;
+  color: #000000;
+  border-color: #000000;
   transition: all 1s;
-  background: #ffffff;
+  background: transparent;
 }
 
 /* estilo da página inicial (home)*/
@@ -120,6 +121,11 @@ nav a:hover {
 }
 
 /* Estilo da página de produtos*/
+.titulo-produtos{
+  text-align: center;
+  font-size: 2em;
+  margin: 1em 0 1em;
+}
 .produtos {
   width: 940px;
   margin: 0 auto;
@@ -132,18 +138,19 @@ nav a:hover {
   vertical-align: top;
   margin: 0 1.5%;
   padding: 30px 20px;
+  background: #FFFFFF;
   box-sizing: border-box;
-  border: 2px solid #000000;
+  border: 2px solid #a45c40;
   border-radius: 20px;
 }
 .produtos li:hover {
-  border-color: #c78c19;
+  border-color: #000000;
 }
 .produtos li:active {
   border-color: #088c19;
 }
 .produtos li:hover h2 {
-  font-size: 34px;
+  font-size: 32px;
 }
 .produtos h2 {
   font-size: 30px;
@@ -159,6 +166,15 @@ nav a:hover {
 }
 
 /* estilo da página de contato */
+.conteudo-formulario {
+  width: 940px;
+  margin: 0 auto;
+}
+.titulo-contato {
+  text-align: center;
+  font-size: 2em;
+  margin: 1em 0 1em;
+}
 form {
   margin: 40px 0;
 }
@@ -180,7 +196,7 @@ form legend {
 .enviar {
   width: 40%;
   padding: 15px 0;
-  background: orange;
+  background: #a45c40;
   color: white;
   font-weight: bold;
   font-size: 18;
@@ -190,8 +206,10 @@ form legend {
   cursor: pointer;
 }
 .enviar:hover {
-  background: rgb(146, 95, 1);
-  transform: scale(1.2);
+  color: #000000;
+  border: 1px solid #000000;
+  background: #e4b7a0;
+  transform: scale(1.1);
 }
 table {
   margin: 20px 0 40px;
@@ -221,6 +239,7 @@ footer {
 
 /* Responsividade */
 @media screen and (max-width: 480px){
+  /* home */
   header{
     padding-bottom: 20px;
   }
@@ -237,8 +256,7 @@ footer {
     margin-left: 5px;
   }
   nav a {
-    font-size: 17px;
-    width: auto;
+    font-size: 100%;
   }
   .principal, .mapa, .mapa-conteudo, .beneficios, .conteudo-beneficios, .video{
     width: auto;
@@ -248,5 +266,27 @@ footer {
   .lista-beneficios, .imagem-beneficios{
     width: 100%;
     margin-bottom: 20px;
+  }
+  /* produtos */
+  .produtos{
+    width: auto;
+  }
+  .produtos li{
+    width: auto;
+    margin: 20px 20px;
+  }
+  .imagem-servico{
+    width: 100%;
+  }
+  /* contato */
+  .conteudo-formulario{
+    width: auto;
+  }
+  .input-padrao{
+    width: 80%;
+  }
+  .titulo-horarios, form, table{
+    margin-right: 15px;
+    margin-left: 15px;
   }
 }
