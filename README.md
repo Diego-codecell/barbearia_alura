@@ -3,7 +3,7 @@
 ![Badge licença](https://img.shields.io/github/license/Diego-codecell/barbearia_alura.svg)
 
 ## Sobre o projeto
-Este projeto foi criado para colocar em prática os conhecimentos adiquiridos nos cursos de HTML e CSS da **Alura**.
+Este projeto foi criado para colocar em prática os conhecimentos adquiridos nos cursos de HTML e CSS da **Alura**.
 
 ## Acesso ao projeto
   
